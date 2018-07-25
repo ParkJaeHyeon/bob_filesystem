@@ -1,0 +1,10 @@
+﻿  GPT.c
+c:\users\pjy30\desktop\gpt\gpt\gpt.c(31): warning C4091: 'typedef ': ignored on left of 'GPT_Header' when no variable is declared
+c:\users\pjy30\desktop\gpt\gpt\gpt.c(40): warning C4091: 'typedef ': ignored on left of 'GPT_Partition_Entry' when no variable is declared
+c:\users\pjy30\desktop\gpt\gpt\gpt.c(50): warning C4133: '=': incompatible types - from 'GTP_Header *' to 'GPT_Header *'
+c:\users\pjy30\desktop\gpt\gpt\gpt.c(67): warning C4133: '=': incompatible types - from 'GTP_Partition *' to 'GPT_Partition_Entry *'
+c:\users\pjy30\desktop\gpt\gpt\gpt.c(69): warning C4244: 'function': conversion from 'u_llint' to 'long', possible loss of data
+c:\users\pjy30\desktop\gpt\gpt\gpt.c(88): warning C4477: 'printf' : format string '%016x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'u_llint'
+  c:\users\pjy30\desktop\gpt\gpt\gpt.c(88): note: consider using '%llx' in the format string
+  c:\users\pjy30\desktop\gpt\gpt\gpt.c(88): note: consider using '%I64x' in the format string
+  GPT.vcxproj -> C:\Users\pjy30\Desktop\GPT\Debug\GPT.exe
