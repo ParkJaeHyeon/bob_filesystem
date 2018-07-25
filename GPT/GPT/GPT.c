@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <WinSock2.h>
-
-#pragma comment(lib,"ws2_32.lib")
 
 typedef unsigned char u_char;
 typedef unsigned short u_short;

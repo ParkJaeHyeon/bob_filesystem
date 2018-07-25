@@ -1,10 +1,32 @@
 ﻿  GPT.c
-c:\users\pjy30\desktop\gpt\gpt\gpt.c(31): warning C4091: 'typedef ': ignored on left of 'GPT_Header' when no variable is declared
-c:\users\pjy30\desktop\gpt\gpt\gpt.c(40): warning C4091: 'typedef ': ignored on left of 'GPT_Partition_Entry' when no variable is declared
-c:\users\pjy30\desktop\gpt\gpt\gpt.c(50): warning C4133: '=': incompatible types - from 'GTP_Header *' to 'GPT_Header *'
-c:\users\pjy30\desktop\gpt\gpt\gpt.c(67): warning C4133: '=': incompatible types - from 'GTP_Partition *' to 'GPT_Partition_Entry *'
-c:\users\pjy30\desktop\gpt\gpt\gpt.c(69): warning C4244: 'function': conversion from 'u_llint' to 'long', possible loss of data
-c:\users\pjy30\desktop\gpt\gpt\gpt.c(88): warning C4477: 'printf' : format string '%016x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'u_llint'
-  c:\users\pjy30\desktop\gpt\gpt\gpt.c(88): note: consider using '%llx' in the format string
-  c:\users\pjy30\desktop\gpt\gpt\gpt.c(88): note: consider using '%I64x' in the format string
-  GPT.vcxproj -> C:\Users\pjy30\Desktop\GPT\Debug\GPT.exe
+c:\users\pjy30\desktop\best of the best\과제\[강대명 멘토님]\bob_filesystem\gpt\gpt\gpt.c(28): warning C4091: 'typedef ': ignored on left of 'GPT_Header' when no variable is declared
+c:\users\pjy30\desktop\best of the best\과제\[강대명 멘토님]\bob_filesystem\gpt\gpt\gpt.c(37): warning C4091: 'typedef ': ignored on left of 'GPT_Partition_Entry' when no variable is declared
+c:\users\pjy30\desktop\best of the best\과제\[강대명 멘토님]\bob_filesystem\gpt\gpt\gpt.c(47): warning C4013: 'malloc' undefined; assuming extern returning int
+c:\users\pjy30\desktop\best of the best\과제\[강대명 멘토님]\bob_filesystem\gpt\gpt\gpt.c(47): warning C4133: '=': incompatible types - from 'GTP_Header *' to 'GPT_Header *'
+c:\users\pjy30\desktop\best of the best\과제\[강대명 멘토님]\bob_filesystem\gpt\gpt\gpt.c(64): warning C4133: '=': incompatible types - from 'GTP_Partition *' to 'GPT_Partition_Entry *'
+c:\users\pjy30\desktop\best of the best\과제\[강대명 멘토님]\bob_filesystem\gpt\gpt\gpt.c(66): warning C4244: 'function': conversion from 'u_llint' to 'long', possible loss of data
+c:\users\pjy30\desktop\best of the best\과제\[강대명 멘토님]\bob_filesystem\gpt\gpt\gpt.c(85): warning C4477: 'printf' : format string '%016x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'u_llint'
+  c:\users\pjy30\desktop\best of the best\과제\[강대명 멘토님]\bob_filesystem\gpt\gpt\gpt.c(85): note: consider using '%llx' in the format string
+  c:\users\pjy30\desktop\best of the best\과제\[강대명 멘토님]\bob_filesystem\gpt\gpt\gpt.c(85): note: consider using '%I64x' in the format string
+  GPT.vcxproj -> C:\Users\pjy30\Desktop\Best of the Best\과제\[강대명 멘토님]\bob_filesystem\GPT\Debug\GPT.exe
+  Set-Content : 'C:\WINDOWS\SysWOW64\WindowsPowerShell\v1.0\Debug\vcpkg.applocal.log' 경로의 일부를 찾을 수 없습니다.
+  위치 C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1:12 문자:5
+  +     Set-Content -Path $copiedFilesLog -Value "" -Encoding Ascii
+  +     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\SysW...kg.applocal.log:String) [Set-Content], DirectoryNotFoundException
+      + FullyQualifiedErrorId : GetContentWriterDirectoryNotFoundError,Microsoft.PowerShell.Commands.SetContentCommand
+   
+  Split-Path : 'Path' 매개 변수가 null이므로 인수를 해당 매개 변수에 바인딩할 수 없습니다.
+  위치 C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1:33 문자:39
+  +     $baseTargetBinaryDir = Split-Path $baseBinaryPath -parent
+  +                                       ~~~~~~~~~~~~~~~
+      + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+      + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCommand
+   
+  Split-Path : 'Path' 매개 변수가 null이므로 인수를 해당 매개 변수에 바인딩할 수 없습니다.
+  위치 C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1:51 문자:35
+  +     $targetBinaryDir = Split-Path $targetBinaryPath -parent
+  +                                   ~~~~~~~~~~~~~~~~~
+      + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+      + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCommand
+   
