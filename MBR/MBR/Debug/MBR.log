@@ -1,0 +1,29 @@
+﻿  MBR.c
+c:\users\pjy30\desktop\best of the best\과제\[강대명 멘토님]\bob_filesystem\mbr\mbr\mbr.c(20): warning C4091: 'typedef ': ignored on left of 'Partition' when no variable is declared
+c:\users\pjy30\desktop\best of the best\과제\[강대명 멘토님]\bob_filesystem\mbr\mbr\mbr.c(27): warning C4091: 'typedef ': ignored on left of 'MBR' when no variable is declared
+c:\users\pjy30\desktop\best of the best\과제\[강대명 멘토님]\bob_filesystem\mbr\mbr\mbr.c(37): warning C4013: 'malloc' undefined; assuming extern returning int
+c:\users\pjy30\desktop\best of the best\과제\[강대명 멘토님]\bob_filesystem\mbr\mbr\mbr.c(37): warning C4047: '=': 'MBR *' differs in levels of indirection from 'int'
+c:\users\pjy30\desktop\best of the best\과제\[강대명 멘토님]\bob_filesystem\mbr\mbr\mbr.c(38): warning C4047: '=': 'MBR *' differs in levels of indirection from 'int'
+c:\users\pjy30\desktop\best of the best\과제\[강대명 멘토님]\bob_filesystem\mbr\mbr\mbr.c(103): warning C4013: 'close' undefined; assuming extern returning int
+  MBR.vcxproj -> C:\Users\pjy30\Desktop\Best of the Best\과제\[강대명 멘토님]\bob_filesystem\MBR\Debug\MBR.exe
+  Set-Content : 'C:\WINDOWS\SysWOW64\WindowsPowerShell\v1.0\Debug\vcpkg.applocal.log' 경로의 일부를 찾을 수 없습니다.
+  위치 C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1:12 문자:5
+  +     Set-Content -Path $copiedFilesLog -Value "" -Encoding Ascii
+  +     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      + CategoryInfo          : ObjectNotFound: (C:\WINDOWS\SysW...kg.applocal.log:String) [Set-Content], DirectoryNotFoundException
+      + FullyQualifiedErrorId : GetContentWriterDirectoryNotFoundError,Microsoft.PowerShell.Commands.SetContentCommand
+   
+  Split-Path : 'Path' 매개 변수가 null이므로 인수를 해당 매개 변수에 바인딩할 수 없습니다.
+  위치 C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1:33 문자:39
+  +     $baseTargetBinaryDir = Split-Path $baseBinaryPath -parent
+  +                                       ~~~~~~~~~~~~~~~
+      + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+      + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCommand
+   
+  Split-Path : 'Path' 매개 변수가 null이므로 인수를 해당 매개 변수에 바인딩할 수 없습니다.
+  위치 C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1:51 문자:35
+  +     $targetBinaryDir = Split-Path $targetBinaryPath -parent
+  +                                   ~~~~~~~~~~~~~~~~~
+      + CategoryInfo          : InvalidData: (:) [Split-Path], ParameterBindingValidationException
+      + FullyQualifiedErrorId : ParameterArgumentValidationErrorNullNotAllowed,Microsoft.PowerShell.Commands.SplitPathCommand
+   
